@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.layoutHeader {
+  height: 35vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.backButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.layoutTitle  {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3.5em;
+  margin: 5px 15px;
+  width: 800px;
+}
+
+.headerActionButton {
+  border: 1px solid black;
+  padding: 10px 50px;
+  border-radius: 50px;
+  margin: 15px;
+  background-color: transparent;
+  color: black;
+  transition: 0.2s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.headerActionButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.mainContent{
+  display: flex;
+  height: 65vh;
+  align-items: center;
+  justify-content: center;
+  overflow:auto; 
+  flex-direction: column;
+}

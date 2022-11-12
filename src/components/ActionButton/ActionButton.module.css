@@ -1,0 +1,21 @@
+.actionButton {
+  border: 1px solid black;
+  padding: 10px 50px;
+  border-radius: 50px;
+  margin: 15px;
+  background-color: transparent;
+  color: black;
+  transition: 0.2s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.actionButton:hover {
+  background-color: black;
+  color: white;
+}

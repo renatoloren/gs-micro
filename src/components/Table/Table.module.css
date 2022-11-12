@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  margin-left: 40px;
+  align-self: flex-start;
+}
+
+table th {
+  min-width: 200px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+table thead tr {
+  border-bottom: none;
+  cursor:default;
+}
+
+table thead tr:hover {
+  background-color: transparent;
+}
+
+table tr{
+  border-bottom: 1px solid black;
+  height: 50px;
+  cursor: pointer;
+}
+
+table tr:hover{
+  background-color: #E7E7E7;
+}
+
+.removeButton {
+  background-color: transparent;
+  cursor: pointer;
+}
